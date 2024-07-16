@@ -123,132 +123,6 @@
           </td>
         </tr>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          
-          <tr onmouseout="volrecon_stop()" onmouseover="volrecon_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='volrecon_image'>
-                  <img src='images/volrecon_after.jpeg' width="160"  height="140"></div>
-                <img src='images/volrecon_before.jpeg' width="160"  height="140">
-              </div>
-              <script type="text/javascript">
-                function volrecon_start() {
-                  document.getElementById('volrecon_image').style.opacity = "1";
-                }
-
-                function volrecon_stop() {
-                  document.getElementById('volrecon_image').style.opacity = "0";
-                }
-                volrecon_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://fangjinhuawang.github.io/VolRecon/">
-                <papertitle>VolRecon: Volume Rendering of Signed Ray Distance Functions for Generalizable Multi-View Reconstruction</papertitle>
-              </a>
-              <br>
-              <strong>Zicong Jiang*</strong>,
-              <a href="https://fangjinhuawang.github.io//">Fangjinhua Wang*</a>,
-              <a href="https://sites.google.com/view/tong-zhang">Tong Zhang</a>, 
-							<a href="http://cvg.ethz.ch/people/faculty/">Marc Pollefeys</a>,
-              <a href="https://people.epfl.ch/sabine.susstrunk">Sabine Süsstrunk</a>
-              <br>
-              <em>CVPR'23</em>, <a href="http://arxiv.org/abs/2212.08067">arXiv</a>, <a href="https://fangjinhuawang.github.io/VolRecon/">Project Page</a>, <a href="https://github.com/IVRL/VolRecon/">Code</a>
-              <br>
-              <!-- <a href="https://yifanjiang.net/MalleConv.html">project page</a>
-              / -->
-              <!-- <a href="https://arxiv.org/abs/2201.00392">arXiv</a> -->
-              <p></p>
-              <p>
-              We introduce VolRecon, a novel generalizable implicit reconstruction method with Signed Ray Distance Function (SRDF). To reconstruct the scene with fine details and little noise, VolRecon combines projection features aggregated from multi-view features, and volume features interpolated from a coarse global feature volume.
-              </p>
-            </td>
-          </tr>
-
-          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='malle_image'>
-                  <img src='images/v1-2.png' width="160" height="160"></div>
-                <img src='images/v1.png' width="160" height="160">
-              </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20622">
-                <papertitle>Learning V1 Simple Cells with Vector Representation of Local Content and Matrix Representation of Local Motion</papertitle>
-              </a>
-              <br>
-              <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>,
-              <a href="http://www.stat.ucla.edu/~jxie/">Jianwen Xie</a>, 
-							<a href="https://siyuanhuang.com/">Siyuan Huang</a>,
-              <strong>Zicong Jiang</strong>,
-              <a href="http://www.stat.ucla.edu/~sczhu/">Song-Chun Zhu</a>,
-              <a href="https://scholar.google.com/citations?user=7k_1QFIAAAAJ&hl=en">Ying Nian Wu</a>
-              <br>
-              <em>AAAI'22</em>, <a href="https://arxiv.org/abs/1902.03871">arXiv</a>
-              <br>
-              <!-- <a href="https://yifanjiang.net/MalleConv.html">project page</a>
-              / -->
-              <!-- <a href="https://arxiv.org/abs/2201.00392">arXiv</a> -->
-              <p></p>
-              <p>
-                We propose a representational model for image pairs such as consecutive video frames that are related by local pixel displacements, in the hope that the model may shed light on motion perception in primary visual cortex (V1). The model couples the following two components: (1) the vector representations of local contents of images and (2) the matrix representations of local pixel displacements caused by the relative motions between the agent and the objects in the 3D scene.
-              </p>
-            </td>
-          </tr>
-
-          
-          <tr onmouseout="pnf_stop()" onmouseover="pnf_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
-          <div class="two" id='pnf_image'>
-            <img src='images/bmvs2.png' width="160" height="140"></div>
-          <img src='images/bmvs1.png' width="160" height="140">
-          </div>
-          <script type="text/javascript">
-          function pnf_start() {
-            document.getElementById('pnf_image').style.opacity = "1";
-          }
-
-          function pnf_stop() {
-            document.getElementById('pnf_image').style.opacity = "0";
-          }
-          pnf_stop()
-          </script>
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Yao_BlendedMVS_A_Large-Scale_Dataset_for_Generalized_Multi-View_Stereo_Networks_CVPR_2020_paper.html">
-          <papertitle>Blendedmvs: A large-scale dataset for generalized multi-view stereo networks</papertitle>
-          </a> <br>
-          <a href="https://yoyo000.github.io/">Yao Yao</a>,
-          <a href="https://lzx551402.github.io/">Zixin Luo</a>,
-          <a href="https://scholar.google.com.hk/citations?user=YR1MdT0AAAAJ&hl=zh-CN">Shiwei Li</a>,
-          <a href="https://scholar.google.com/citations?user=diIjfmMAAAAJ&hl=en">Jingyang Zhang</a>,
-          <strong>Zicong Jiang</strong>,
-          <a href="https://zlthinker.github.io/">Lei Zhou</a>,
-          <a href="https://scholar.google.com/citations?user=CtpU8mUAAAAJ&hl=en">Tian Fang</a>,
-          <a href="https://www.cse.ust.hk/~quan/">Long Quan</a>
-          <br>
-          <em>CVPR'20</em>, <a href="https://arxiv.org/abs/1911.10127">arXiv</a>, <a href="https://github.com/YoYo000/BlendedMVS">Dataset</a>
-          <p>
-            We introduce BlendedMVS, a novel large-scale dataset, to provide sufficient training ground truth for learning-based MVS. To create the dataset, we apply a 3D reconstruction pipeline to recover high-quality textured meshes from images of well-selected scenes. Then, we render these mesh models to color images and depth maps. To introduce the ambient lighting information during training, the rendered color images are further blended with the input images to generate the training input.
-          </p>
-          </td>
-          </tr> 
-              </p>
-            </td>
-          </tr>
           
         </tbody>
       </table>
@@ -256,7 +130,7 @@
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
         <td style="padding:20px;width:100%;vertical-align:middle">
-          <heading>Selected Projects and Activities</heading>
+          <heading>Selected Course Projects and Activities</heading>
           <p>
             <!-- My current research interests mainly lie in the field of 3D vision, Neural Rendering, and AIGC. -->
           </p>
@@ -335,7 +209,7 @@
     </table>
       <!-- <a href="https://clustrmaps.com/site/1bt5b"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=ThSjmYvIIyjXawrcSQ1RVYqBTQpwqPy6kXkk-ahKaN8&cl=ffffff" /></a> -->
       <div class="widgetContainer" style="width:200px; margin-left: 30px;">
-        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ThSjmYvIIyjXawrcSQ1RVYqBTQpwqPy6kXkk-ahKaN8"></script>
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=xpCdv4ekEeVz7C1vC4GwYQB7t4yz78HNjpJfEPftCfg"></script>
       </div>
       <br>
 	    Thanks for the <a href="https://github.com/jonbarron/website">awesome template</a> of Jon Barron. 
